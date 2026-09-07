@@ -1,0 +1,23 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5434/bank_db
+        username: ${BANK_DB_USERNAME}
+        password: ${BANK_DB_PASSWORD}
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: ${RABBITMQ_USERNAME}
+        password: ${RABBITMQ_PASSWORD}
+
+springdoc:
+    swagger-ui:
+    path: /swagger-ui.html
