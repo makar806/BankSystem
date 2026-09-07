@@ -1,0 +1,8 @@
+rootProject.name = 'car-dealership'
+
+include 'bank-model'
+include 'bank-data-access'
+include 'bank-service'
+include 'bank-app'
+include 'rates-service'
+

@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASSWORD}
+
+rates:
+  publish-period-ms: 5000
