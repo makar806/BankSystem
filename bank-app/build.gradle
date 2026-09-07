@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(':bank-model')
+    implementation project(':bank-data-access')
+    implementation project(':bank-service')
+    implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+}
